@@ -43,7 +43,7 @@ archivo filtered-table.qzv
     qiime diversity core-metrics-phylogenetic \
     --i-phylogeny rooted-tree.qza \
     --i-table table.qza \
-    --p-sampling-depth 1103 \
+    --p-sampling-depth # \ <- Aquí colocas la profundidad o esfuerzo de muestreo.
     --m-metadata-file sample-metadata.tsv \
     --output-dir core-metrics-results
 
