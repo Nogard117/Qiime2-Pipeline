@@ -13,7 +13,7 @@ calculado es lo siguiente:
 
   - Shannon’s diversity index (a quantitative measure of community
     richness)  
-  - Observed OTUs (a qualitative measure of community richness)  
+  - Observed features (a qualitative measure of community richness)  
   - Faith’s Phylogenetic Diversity (a qualitiative measure of community
     richness that incorporates phylogenetic relationships between the
     features)  
@@ -61,7 +61,7 @@ archivo filtered-table.qzv
   - core-metrics-results/shannon\_vector.qza -\>
     SampleData\[AlphaDiversity\]  
 
-  - core-metrics-results/observed\_otus\_vector.qza -\>
+  - core-metrics-results/observed\_features\_vector.qza -\>
     SampleData\[AlphaDiversity\]
 
   - core-metrics-results/unweighted\_unifrac\_distance\_matrix.qza -\>
